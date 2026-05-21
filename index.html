@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>not yet</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+
+      font-family: 'Inter', sans-serif;
+
+      background:
+        radial-gradient(circle at top left, #1f2a72 0%, transparent 40%),
+        radial-gradient(circle at bottom right, #7c2d92 0%, transparent 40%),
+        linear-gradient(135deg, #050816, #090b1a, #0b1026);
+
+      color: white;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: clamp(4rem, 10vw, 8rem);
+      font-weight: 700;
+      letter-spacing: -4px;
+
+      background: linear-gradient(90deg, #7c8cff, #ff7ad9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      text-shadow:
+        0 0 20px rgba(124, 140, 255, 0.25),
+        0 0 40px rgba(255, 122, 217, 0.15);
+    }
+
+    .line {
+      width: 120px;
+      height: 4px;
+      margin: 24px auto 0;
+
+      border-radius: 999px;
+
+      background: linear-gradient(90deg, #7c8cff, #ff7ad9);
+
+      box-shadow:
+        0 0 10px rgba(124, 140, 255, 0.4),
+        0 0 20px rgba(255, 122, 217, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Not Yet</h1>
+    <div class="line"></div>
+  </div>
+
+</body>
+</html>
